@@ -23,7 +23,7 @@ import (
 	"github.com/cespare/xxhash/v2"
 )
 
-// TODO: Figure out a way to re-use memhash for the second uint64 hash, we
+// KeyToHash TODO: Figure out a way to re-use memhash for the second uint64 hash, we
 //       already know that appending bytes isn't reliable for generating a
 //       second hash (see Ristretto PR #88).
 //
